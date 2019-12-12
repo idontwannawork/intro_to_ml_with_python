@@ -11,6 +11,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
 
+# %%
+mglearn.plots.plot_knn_regression(n_neighbors=1)
+
+# %%
+mglearn.plots.plot_knn_regression(n_neighbors=3)
+
 
 # %%
 X, y = mglearn.datasets.make_wave(n_samples=40)
