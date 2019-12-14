@@ -3,6 +3,7 @@
 
 # %%
 
+from sklearn.linear_model import Ridge
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import train_test_split
@@ -25,7 +26,6 @@ print('Test set score: {:.2f}'.format(lr.score(X_test, y_test)))
 
 # %%
 
-from sklearn.linear_model import Ridge
 
 ridge = Ridge().fit(X_train, y_train)
 print('Training set score {:.2f}'.format(ridge.score(X_train, y_train)))
