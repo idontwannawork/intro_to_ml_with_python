@@ -55,3 +55,7 @@ plt.ylim(-25, 25)
 plt.legend()
 
 # %%
+
+mglearn.plots.plot_ridge_n_samples()
+
+# %%
